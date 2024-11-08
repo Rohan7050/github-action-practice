@@ -6,5 +6,8 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World"
+      - name: execute multiple lines
+        run: echo "First output"
+             echo "Second output"
       - name: Print Buy
         run: echo "Good Buy"
